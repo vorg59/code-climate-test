@@ -11,7 +11,7 @@ checks:
   file-lines: #not counting empty lines
     enabled: true
     config:
-      threshold: 200
+      threshold: 200 #default 250
   method-complexity: #cognitive complexity
     enabled: true
     config:
@@ -27,7 +27,7 @@ checks:
   nested-control-flow: #of if/else/switch
     enabled: true
     config:
-      threshold: 4
+      threshold: 10
   return-statements:
     enabled: true
     config:

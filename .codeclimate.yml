@@ -50,7 +50,7 @@ checks:
 #     enabled: true
 
 exclude_patterns:
-# - "Assets/"
+- "Assets/"
 - "config/"
 - "db/"
 - "dist/"

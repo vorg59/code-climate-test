@@ -58,7 +58,7 @@ exclude_patterns:
 - "**/node_modules/"
 - "script/"
 - "**/spec/"
-- "**/test/"
+# - "**/test/"
 - "**/tests/"
 - "**/vendor/"
 - "**/*.d.ts"

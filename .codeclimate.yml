@@ -12,7 +12,7 @@ checks:
     enabled: true
     config:
       threshold: 250
-  method-complexity:
+  method-complexity: #cognitive complexity
     enabled: true
     config:
       threshold: 5
@@ -24,7 +24,7 @@ checks:
     enabled: true
     config:
       threshold: 25
-  nested-control-flow:
+  nested-control-flow: #of if/else/switch
     enabled: true
     config:
       threshold: 4

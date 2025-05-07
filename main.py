@@ -265,3 +265,13 @@ def menu(death_count):
 
 
 menu(death_count=0)
+
+def complex_logic():
+    cond_1 = True
+    cond_2 = True
+    cond_3 = True
+    cond_4 = True
+    cond_5 = True
+    if cond_1 and cond_2 and cond_3 and cond_4 or cond_5:
+        return 0
+    return 1 

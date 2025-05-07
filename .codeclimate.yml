@@ -19,7 +19,7 @@ checks:
   method-count: #of a class
     enabled: true
     config:
-      threshold: 20
+      threshold: 5
   method-lines: #of any function
     enabled: true
     config:
@@ -27,7 +27,7 @@ checks:
   nested-control-flow: #of if/else/switch
     enabled: true
     config:
-      threshold: 10
+      threshold: 4
   return-statements:
     enabled: true
     config:

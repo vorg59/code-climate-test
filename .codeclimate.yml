@@ -46,8 +46,8 @@ plugins:
     enabled: true
   radon: 
     enabled: true
-  sonar-python:
-    enabled: true
+    config: 
+      threshold: "C" #defaults to B
 
 exclude_patterns:
 - "Assets/"

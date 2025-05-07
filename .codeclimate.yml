@@ -11,7 +11,7 @@ checks:
   file-lines:
     enabled: true
     config:
-      threshold: 250
+      threshold: 200
   method-complexity: #cognitive complexity
     enabled: true
     config:

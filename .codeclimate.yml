@@ -4,7 +4,7 @@ checks:
     enabled: true
     config:
       threshold: 4
-  complex-logic:
+  complex-logic: #compounding conditions
     enabled: true
     config:
       threshold: 4
@@ -16,11 +16,11 @@ checks:
     enabled: true
     config:
       threshold: 5
-  method-count:
+  method-count: #of a class
     enabled: true
     config:
       threshold: 20
-  method-lines:
+  method-lines: #of any function
     enabled: true
     config:
       threshold: 25
@@ -41,13 +41,13 @@ checks:
     config:
       threshold: #language-specific defaults. overrides affect all languages.
 
-# plugins:
-#   bandit:
-#     enabled: true
-#   radon: 
-#     enabled: true
-#   sonar-python:
-#     enabled: true
+plugins:
+  bandit:
+    enabled: true
+  radon: 
+    enabled: true
+  sonar-python:
+    enabled: true
 
 exclude_patterns:
 - "Assets/"

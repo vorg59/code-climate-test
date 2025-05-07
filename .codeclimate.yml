@@ -8,7 +8,7 @@ checks:
     enabled: true
     config:
       threshold: 4
-  file-lines:
+  file-lines: #not counting empty lines
     enabled: true
     config:
       threshold: 200

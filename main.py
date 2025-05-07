@@ -272,6 +272,7 @@ def complex_logic():
     cond_3 = True
     cond_4 = True
     cond_5 = False
-    if cond_1 and cond_2 and cond_3 and cond_4 and cond_5 and cond_2 and cond_3 and cond_4 and cond_5:
+    cond_6 = False
+    if cond_1 and cond_2 and cond_3 and cond_4 and cond_5 and cond_6:
         return 0
     return 1 

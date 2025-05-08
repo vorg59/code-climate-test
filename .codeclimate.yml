@@ -47,7 +47,7 @@ plugins:
   radon: 
     enabled: true
     config: 
-      threshold: "C" #defaults to B
+      threshold: "A" #defaults to B
 
 exclude_patterns:
 - "Assets/"

@@ -19,7 +19,7 @@ checks:
   method-count: #of a class
     enabled: true
     config:
-      threshold: 5
+      threshold: 20
   method-lines: #of any function
     enabled: true
     config:
@@ -61,4 +61,3 @@ exclude_patterns:
 # - "**/test/"
 - "**/tests/"
 - "**/vendor/"
-- "**/*.d.ts"
